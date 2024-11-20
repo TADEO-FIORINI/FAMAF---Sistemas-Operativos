@@ -1,0 +1,16 @@
+# Ignora todos los archivos y directorios ocultos
+.*
+# Excepto gitignore
+!.gitignore
+
+# Ignora todos los archivos .json
+*.json
+
+# Ignora los .o
+*.o
+
+mybash
+
+# no ignoramos los que son necesarios
+!lexer.o
+!parser.o

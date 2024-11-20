@@ -1,0 +1,27 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/riscv64-unknown-elf-gcc",
+      "-Wall",
+      "-Werror",
+      "-O",
+      "-fno-omit-frame-pointer",
+      "-ggdb",
+      "-gdwarf-2",
+      "-mcmodel=medany",
+      "-ffreestanding",
+      "-fno-common",
+      "-mno-relax",
+      "-I.",
+      "-fno-stack-protector",
+      "-fno-pie",
+      "-c",
+      "-o",
+      "user/cat.o",
+      "user/cat.c"
+    ],
+    "directory": "/home/gregovilardo/labs/lab3/so23lab3g38/xv6-riscv",
+    "file": "/home/gregovilardo/labs/lab3/so23lab3g38/xv6-riscv/user/cat.c",
+    "output": "/home/gregovilardo/labs/lab3/so23lab3g38/xv6-riscv/user/cat.o"
+  }
+]

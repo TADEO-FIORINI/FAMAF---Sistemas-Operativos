@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-O0",
+      "-std=gnu11",
+      "-Wall",
+      "-Werror",
+      "-Wno-unused-parameter",
+      "-Werror=vla",
+      "-g",
+      "-D_FILE_OFFSET_BITS=64",
+      "-DFUSE_USE_VERSION=26",
+      "-D_GNU_SOURCE",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-c",
+      "-o",
+      "fat_fuse_ops.o",
+      "fat_fuse_ops.c"
+    ],
+    "directory": "/home/gregovilardo/labs/lab4/so23lab4g38/esqueleto",
+    "file": "/home/gregovilardo/labs/lab4/so23lab4g38/esqueleto/fat_fuse_ops.c",
+    "output": "/home/gregovilardo/labs/lab4/so23lab4g38/esqueleto/fat_fuse_ops.o"
+  }
+]
